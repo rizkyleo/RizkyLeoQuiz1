@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/m_rizky_leo_pratama_quiz1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:hint="Masukkan Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"/>
+    <TextView
+        android:text="@string/tipe_pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/rgold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gold"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/rsilver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silver"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/rbiasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biasa"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/kode"
+        android:hint="Masukkan kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/jumlah"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"/>
+    <Button
+        android:id="@+id/process_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
